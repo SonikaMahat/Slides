@@ -1,0 +1,52 @@
+---
+title: "Cities in Higher-HDI Countries Have More Urban Greenspace in South Asia"
+author: "Sonika Mahat"
+institute: "American University, SIS-750: Data Analysis"
+date: "2025-04-09"
+output: 
+  beamer_presentation:
+    theme: "Malmoe"
+    colortheme: "beaver"
+  fontsize: 12pt
+  classoption: "aspectratio=169"
+---
+```{r setup, include=FALSE}
+#Packages
+library(knitr)
+library(rmdformats)
+library(tidyverse)
+#Global options
+knitr::opts_chunk$set(
+  echo = FALSE,
+  prompt = FALSE,
+  tidy = FALSE,
+  comment = NA,
+  message = FALSE,
+  warning = FALSE,
+  fig.align = 'center')
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
